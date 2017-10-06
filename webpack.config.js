@@ -28,13 +28,14 @@ module.exports = {
   },
   target: 'web',
   resolve: {
-    extensions: ['.js', '.ts'],
+    extensions: ['.js', '.ts', '.vue'],
     // Fix webpack's default behavior to not load packages with jsnext:main module
     // https://github.com/Microsoft/TypeScript/issues/11677
     mainFields: ['main'],
     alias : {
       'bx-ui' : path.resolve(__dirname, './src/ui/material'),
-      "bx-utils" : path.resolve(__dirname, './src/utils')
+      "bx-utils" : path.resolve(__dirname, './src/utils'),
+      "vue": 'vue/dist/vue.js'
     }
   },
   module: {
