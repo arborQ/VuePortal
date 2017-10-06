@@ -1,9 +1,10 @@
+import { Input } from "bx-ui";
 import * as Vue from "vue";
-
-Vue.component("lol", { template: "<input type='text' />" });
+import * as dd from "vuex";
 
 const a = new Vue({
-    data: { message: "hallo" },
+    components: { Input },
+    data: { message: "input.toString()" },
     el: "#root",
-    template: "<div>Hi {{message}}<lol></lol></div>",
+    template: "<div><vue-input /></div>",
 });

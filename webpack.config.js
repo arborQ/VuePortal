@@ -33,7 +33,7 @@ module.exports = {
     // https://github.com/Microsoft/TypeScript/issues/11677
     mainFields: ['main'],
     alias : {
-      'bx-ui' : path.resolve(__dirname, './src/ui/material'),
+      'bx-ui' : path.resolve(__dirname, './src/ui'),
       "bx-utils" : path.resolve(__dirname, './src/utils'),
       "vue": 'vue/dist/vue.js'
     }
