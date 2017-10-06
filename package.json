@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/dev.server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/arborQ/VuePortal/issues"
   },
-  "homepage": "https://github.com/arborQ/VuePortal#readme"
+  "homepage": "https://github.com/arborQ/VuePortal#readme",
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "awesome-typescript-loader": "^3.2.3",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "typescript": "^2.5.3",
+    "vue": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
 }
